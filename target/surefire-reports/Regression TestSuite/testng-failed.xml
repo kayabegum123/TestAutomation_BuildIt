@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Regression TestSuite]">
+  <test name="Application Test(failed)">
+    <classes>
+      <class name="BuildIt_pages.LogIn">
+        <methods>
+          <include name="SignUp"/>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- BuildIt_pages.LogIn -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->
